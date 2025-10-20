@@ -20,3 +20,26 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Configuration files with sensitive data
+appsettings.json
+appsettings.*.json
+!appsettings.Development.json.template
+
+# Visual Studio cache/options
+.vs/
+
+# JetRider Rider
+.idea/
